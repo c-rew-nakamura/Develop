@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    @RenderSection("Header", false)
+
+    <style>
+        #_title {
+            width: 130px;
+            font-size: 28px;
+            background-color: #fff;
+            text-align: left;
+            margin-left: 0px;
+            margin-bottom:-8px;
+            line-height:18px;
+        }
+    </style>
+
+    <style>
+        #_nav-item {
+            line-height: 14px;
+            height: auto;
+            text-decoration: none;
+            margin-left: 10px;
+        }
+
+            #_nav-item:hover {
+                font-weight: bold;
+                background: linear-gradient(165deg, #fff, #fff 40%, #c0c0c0);
+            }
+    </style>
+
+    <style>
+        #_footer {
+            line-height: 20px;
+            text-align: right;
+            font-size: 12px;
+            font-weight: bolder;
+        }
+    </style>
+    <style>
+        #_inline-block_left {
+            display: inline-block; /* インラインブロック要素にする */
+            background-color: #ccc; /* 背景色指定 */
+        }
+
+        #_inline-block_center {
+            display: inline-block; /* インラインブロック要素にする */
+            background-color: #ccc; /* 背景色指定 */
+        }
+    </style>
+</head>
+<body style="line-height: 1.2;">
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index" id="_title">c-rew.com <br /><div style="font-size:8px;text-align:center;">powerd by ASP.NET Core.</div></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse" style="padding-top: 5px; ">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item" id="_nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">TOP</a>
+                        </li>
+                        <li class="nav-item" id="_nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Business" asp-action="Index">Business</a>
+                        </li>
+                        <li class="nav-item" id="_nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Laboratory" asp-action="Index">Laboratory</a>
+                        </li>
+                        <li class="nav-item" id="_nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Privacy" asp-action="Index">Privacy</a>
+                        </li>
+                        <li class="nav-item" id="_nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="About" asp-action="Index">About</a>
+                        </li>
+                        <li class="nav-item" id="_nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Login" asp-action="Index">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container" style="font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;font-size:12px">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+        <div class="container" style="display:flex; margin: 0;">
+                @RenderSection("Body_Left", false)
+                @RenderSection("Body_Right", false)
+        </div>
+    </div>
+
+    <footer class="border-top footer text-muted border-bottom box-shadow">
+        <div class="container" id="_footer">
+            &copy; 2020 https://www.c-rew.com
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

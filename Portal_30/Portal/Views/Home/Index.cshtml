@@ -1,0 +1,118 @@
+﻿@*--------------------------------------------------------
+
+                    Home.Index エントリポイント
+
+    --------------------------------------------------------*@
+
+@using System.Data
+@using Buono.BuonoCore
+@model clsArgs
+@* 引数 *@
+@{
+    DataTable dt = null;
+    dt = Model.xGetDataTable();
+
+    string stGetDataTime = (string)@ViewData["stGetDataTime"];
+    string edGetDataTime = (string)@ViewData["edGetDataTime"];
+    string stEditTime = clsSystemInfo.xNow.ToString("HH:mm:ss fff");
+    string edEditTime = "";
+}
+
+@section Header
+{
+    <style>
+        .body {
+            font-size: 12px;
+        }
+    </style>
+}
+
+@{
+
+    ViewData["Title"] = "C-REW : " + Buono.BuonoCore.clsSystemInfo.xSystemID + "_" + Buono.BuonoCore.clsSystemInfo.xProductInfo.xGetVersionName;
+}
+
+<div class="text-center" style="font-size:12px;">
+    <h1 class="display-4">Welcome</h1>
+    <p>@ViewData["SessionID"]</p>
+    <p>@TimeZoneInfo.Local.Id : @TimeZoneInfo.Local.DaylightName</p>
+</div>
+
+
+<div>
+    @{
+        stEditTime = clsSystemInfo.xNow.ToString("HH:mm:ss fff");
+        <table>
+            <caption>News</caption>
+            <thead>
+                <tr>
+                    <th style="border:1px solid #0000ff">日付</th>
+                    <td style="border:1px solid #0000ff">記事</td>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    for (int i = 0; i < dt.Rows.Count; i++)
+                    {
+                        <tr>
+                            <td style="border:1px solid #0000ff;@_GetStyle_日時BackColor(i)">
+                                <p>@dt.Rows[i]["登録日時"].ToString()</p>
+                            </td>
+                            <td style="border:1px solid #0000ff;@_GetStyle_記事Color(i)">
+                                <p>@dt.Rows[i]["記事"].ToString()</p>
+                            </td>
+                        </tr>
+                    }
+                }
+
+            </tbody>
+        </table>
+        edEditTime = clsSystemInfo.xNow.ToString("HH:mm:ss fff");
+    }
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>データ取得開始時刻：</td>
+            <td>@stGetDataTime</td>
+        </tr>
+        <tr>
+            <td>データ取得終了時刻：</td>
+            <td>@edGetDataTime</td>
+        </tr>
+        <tr>
+            <td>画面編集開始時刻：</td>
+            <td>@stEditTime</td>
+        </tr>
+        <tr>
+            <td>画面編集終了時刻：</td>
+            <td>@edEditTime</td>
+        </tr>
+    </table>
+</div>
+
+    @functions {
+        string _GetStyle_記事Color(int pRowNo)
+        {
+            string color = "";
+
+            if (pRowNo == 21)
+                {
+                    color = "color:#ff0000;";
+                }
+
+            return color;
+        }
+        string _GetStyle_日時BackColor(int pRowNo)
+        {
+            string color = "";
+
+            if (pRowNo == 24)
+                {
+                    color = "background-color:#ffff00;";
+                }
+
+            return color;
+        }
+    }

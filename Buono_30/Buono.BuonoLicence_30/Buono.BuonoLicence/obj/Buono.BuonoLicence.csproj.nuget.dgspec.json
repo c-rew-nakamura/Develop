@@ -1,0 +1,128 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\c-rew.com\\Develop\\Buono_30\\Buono.BuonoLicence_30\\Buono.BuonoLicence\\Buono.BuonoLicence.csproj": {}
+  },
+  "projects": {
+    "C:\\c-rew.com\\Develop\\Buono_30\\Buono.BuonoCore_30\\Buono.BuonoCore\\Buono.BuonoCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\c-rew.com\\Develop\\Buono_30\\Buono.BuonoCore_30\\Buono.BuonoCore\\Buono.BuonoCore.csproj",
+        "projectName": "BuonoCore",
+        "projectPath": "C:\\c-rew.com\\Develop\\Buono_30\\Buono.BuonoCore_30\\Buono.BuonoCore\\Buono.BuonoCore.csproj",
+        "packagesPath": "C:\\Users\\kunit\\.nuget\\packages\\",
+        "outputPath": "C:\\c-rew.com\\Develop\\Buono_30\\Buono.BuonoCore_30\\Buono.BuonoCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kunit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "System.IO.FileSystem.AccessControl": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\c-rew.com\\Develop\\Buono_30\\Buono.BuonoLicence_30\\Buono.BuonoLicence\\Buono.BuonoLicence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\c-rew.com\\Develop\\Buono_30\\Buono.BuonoLicence_30\\Buono.BuonoLicence\\Buono.BuonoLicence.csproj",
+        "projectName": "Buono.BuonoLicence",
+        "projectPath": "C:\\c-rew.com\\Develop\\Buono_30\\Buono.BuonoLicence_30\\Buono.BuonoLicence\\Buono.BuonoLicence.csproj",
+        "packagesPath": "C:\\Users\\kunit\\.nuget\\packages\\",
+        "outputPath": "C:\\c-rew.com\\Develop\\Buono_30\\Buono.BuonoLicence_30\\Buono.BuonoLicence\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kunit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\c-rew.com\\Develop\\Buono_30\\Buono.BuonoCore_30\\Buono.BuonoCore\\Buono.BuonoCore.csproj": {
+                "projectPath": "C:\\c-rew.com\\Develop\\Buono_30\\Buono.BuonoCore_30\\Buono.BuonoCore\\Buono.BuonoCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

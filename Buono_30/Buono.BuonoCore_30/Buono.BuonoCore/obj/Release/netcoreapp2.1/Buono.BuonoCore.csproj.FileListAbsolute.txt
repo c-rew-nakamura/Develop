@@ -1,0 +1,9 @@
+C:\Nakamura\Deverop\Buono\Buono.BuonoCore\Buono.BuonoCore\bin\Release\netcoreapp2.1\BuonoCore.deps.json
+C:\Nakamura\Deverop\Buono\Buono.BuonoCore\Buono.BuonoCore\bin\Release\netcoreapp2.1\BuonoCore.dll
+C:\Nakamura\Deverop\Buono\Buono.BuonoCore\Buono.BuonoCore\bin\Release\netcoreapp2.1\BuonoCore.pdb
+C:\Nakamura\Deverop\Buono\Buono.BuonoCore\Buono.BuonoCore\obj\Release\netcoreapp2.1\Buono.BuonoCore.csprojAssemblyReference.cache
+C:\Nakamura\Deverop\Buono\Buono.BuonoCore\Buono.BuonoCore\obj\Release\netcoreapp2.1\Buono.BuonoCore.csproj.CoreCompileInputs.cache
+C:\Nakamura\Deverop\Buono\Buono.BuonoCore\Buono.BuonoCore\obj\Release\netcoreapp2.1\Buono.BuonoCore.AssemblyInfoInputs.cache
+C:\Nakamura\Deverop\Buono\Buono.BuonoCore\Buono.BuonoCore\obj\Release\netcoreapp2.1\Buono.BuonoCore.AssemblyInfo.cs
+C:\Nakamura\Deverop\Buono\Buono.BuonoCore\Buono.BuonoCore\obj\Release\netcoreapp2.1\BuonoCore.dll
+C:\Nakamura\Deverop\Buono\Buono.BuonoCore\Buono.BuonoCore\obj\Release\netcoreapp2.1\BuonoCore.pdb

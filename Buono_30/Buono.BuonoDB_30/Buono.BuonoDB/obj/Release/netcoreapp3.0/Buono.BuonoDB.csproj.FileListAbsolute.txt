@@ -1,0 +1,11 @@
+C:\c-rew.com\Develop\Buono_30\Buono.BuonoDB_30\Buono.BuonoDB\bin\Release\netcoreapp3.0\Buono.BuonoDB.deps.json
+C:\c-rew.com\Develop\Buono_30\Buono.BuonoDB_30\Buono.BuonoDB\bin\Release\netcoreapp3.0\Buono.BuonoDB.dll
+C:\c-rew.com\Develop\Buono_30\Buono.BuonoDB_30\Buono.BuonoDB\bin\Release\netcoreapp3.0\Buono.BuonoDB.pdb
+C:\c-rew.com\Develop\Buono_30\Buono.BuonoDB_30\Buono.BuonoDB\bin\Release\netcoreapp3.0\BuonoCore.dll
+C:\c-rew.com\Develop\Buono_30\Buono.BuonoDB_30\Buono.BuonoDB\bin\Release\netcoreapp3.0\BuonoCore.pdb
+C:\c-rew.com\Develop\Buono_30\Buono.BuonoDB_30\Buono.BuonoDB\obj\Release\netcoreapp3.0\Buono.BuonoDB.csprojAssemblyReference.cache
+C:\c-rew.com\Develop\Buono_30\Buono.BuonoDB_30\Buono.BuonoDB\obj\Release\netcoreapp3.0\Buono.BuonoDB.AssemblyInfoInputs.cache
+C:\c-rew.com\Develop\Buono_30\Buono.BuonoDB_30\Buono.BuonoDB\obj\Release\netcoreapp3.0\Buono.BuonoDB.AssemblyInfo.cs
+C:\c-rew.com\Develop\Buono_30\Buono.BuonoDB_30\Buono.BuonoDB\obj\Release\netcoreapp3.0\Buono.BuonoDB.csproj.CopyComplete
+C:\c-rew.com\Develop\Buono_30\Buono.BuonoDB_30\Buono.BuonoDB\obj\Release\netcoreapp3.0\Buono.BuonoDB.dll
+C:\c-rew.com\Develop\Buono_30\Buono.BuonoDB_30\Buono.BuonoDB\obj\Release\netcoreapp3.0\Buono.BuonoDB.pdb

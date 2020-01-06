@@ -1,0 +1,94 @@
+﻿@model Portal.Models.LoginViewModel
+
+@section Header
+{
+    <link rel="stylesheet" href="~/css/c-rew_table.css" />
+
+    <style>
+        #_div1 {
+            margin-top: 50px;
+            margin-left: 30px;
+        }
+
+        #_box_out {
+            width: 300px;
+            height: 225px;
+            padding: 1em 1em;
+            margin: 2em auto;
+            background: #fff;
+            border: solid 1px #6091d3; /*線*/
+            border-radius: 5px; /*角の丸み*/
+            font-size:14px;
+        }
+
+        #_box_in {
+            width: 250px;
+            height: 34px;
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: 0px;
+            margin-bottom: 30px;
+            font-weight: bold;
+            color: #6091d3; /*文字色*/
+            background: #fff;
+            border: solid 1px #808080; /*線*/
+            border-radius: 5px; /*角の丸み*/
+        }
+    </style>
+
+    <style>
+        #_input {
+            width: calc(100% - 4px);
+            margin-top: 4px;
+            margin-left: 2px;
+            line-height: 1em;
+            border: none;
+            padding-left: 5px;
+        }
+
+            #_input:focus {
+                border: none;
+            }
+    </style>
+}
+
+@*--------------------------------------------------------
+
+    Login.Index ログイン画面
+
+--------------------------------------------------------*@
+
+@{
+    ViewData["Title"] = "Login";
+}
+<h1 class="display-4" style="font-size: 2.0rem;">@ViewData["Title"]</h1>
+<p>
+    @ViewData["SessionID"]
+</p>
+<section>
+    @using (Html.BeginForm("PostLogin", "Login"))
+    {
+        <div id="_box_out">
+            <p style="margin-bottom:5px;">Email</p>
+            <div id="_box_in">
+                <input type="text" id="_input" name="pEmail" maxlength="100" value=@Model.Email />
+            </div>
+            <p style="margin-bottom:5px;">Password</p>
+            <div id="_box_in">
+                <input type="text" id="_input" name="pPassword" maxlength="100" value=@Model.Password />
+            </div>
+            <div style="margin-right:10px;">
+                <ul style="display:flex; justify-content: flex-end;">
+                    <li style="list-style:none; margin-right:5px;"><input type="submit" value="Login" /></li>
+                    <li style="list-style:none;"><input type="reset" value="Cancel" /></li>
+                </ul>
+            </div>
+        </div>
+    }
+</section>
+
+<section>
+    <div style="width:90%;margin-left:auto;margin-right:auto">
+        <p>@Model.Message</p>
+    </div>
+</section>
