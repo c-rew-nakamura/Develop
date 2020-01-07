@@ -1,0 +1,94 @@
+﻿@section Header
+{
+    <style>
+        #_div_left {
+            max-width: 100px;
+            margin-left: -15px;
+            margin-right: 10px;
+            border-left: solid 1px red;
+            border-top: solid 1px red;
+            border-right: solid 1px red;
+            border-bottom: solid 1px red;
+            word-wrap: break-word;
+        }
+
+        #_div_right {
+            border-left: solid 1px red;
+            border-top: solid 1px red;
+            border-right: solid 1px red;
+            border-bottom: solid 1px red;
+            word-wrap: break-word;
+        }
+    </style>
+
+    <style>
+        #_nav-item {
+            line-height: 14px;
+            height: auto;
+            text-decoration: none;
+            margin-left: 10px;
+        }
+
+            #_nav-item:hover {
+                font-weight: bold;
+                background: linear-gradient(165deg, #fff, #fff 40%, #c0c0c0);
+            }
+    </style>
+    <style>
+        #_p_no {
+            font-size: 16px;
+            margin-bottom:4px;
+        }
+
+        #_p_item {
+        }
+    </style>
+
+    <style>
+        #_box_out {
+            word-wrap: break-word;
+            padding: 1em 1em;
+            margin-top: 1em;
+            margin-bottom: 0em;
+            margin-left: auto;
+            margin-right: auto;
+            background: #fff;
+            border: solid 1px #6091d3; /*線*/
+            border-radius: 5px; /*角の丸み*/
+        }
+    </style>
+}
+
+@*--------------------------------------------------------
+
+    Laboratory.Index 研究室トップ画面
+
+--------------------------------------------------------*@
+
+@{
+    ViewData["Title"] = "Laboratory";
+}
+<h1 class="display-4" style="font-size: 2.0rem;">@ViewData["Title"]</h1>
+
+
+<div class="container">
+    <div id="_box_out">
+        <div>
+            <p id="_p_no">１．<a asp-controller="Labo_DeepLearning" asp-action="Index">Deep Learning</a></p>
+            <p id="_p_item">あああああああああああああ<br />ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
+        </div>
+    </div>
+    <div id="_box_out">
+        <div>
+            <p id="_p_no">２．<a asp-controller="Labo_DeepLearning" asp-action="Index">new Propulsion Power</a></p>
+            <p id="_p_item">あああああああああああああ<br />ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
+        </div>
+    </div>
+    <div id="_box_out">
+        <div>
+            <p id="_p_no">３．<a asp-controller="Labo_DeepLearning" asp-action="Index">xxxxxxxxxx</a></p>
+            <p id="_p_item">あああああああああああああ<br />ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
+            <p id="_p_item">あああああああああああああ<br />ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
+        </div>
+    </div>
+</div>

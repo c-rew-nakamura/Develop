@@ -1,0 +1,16 @@
+C:\c-rew.com\Develop\Buono30\Buono.BuonoCore_30\Buono.BuonoCore\bin\Debug\netcoreapp3.0\BuonoCore.deps.json
+C:\c-rew.com\Develop\Buono30\Buono.BuonoCore_30\Buono.BuonoCore\bin\Debug\netcoreapp3.0\BuonoCore.dll
+C:\c-rew.com\Develop\Buono30\Buono.BuonoCore_30\Buono.BuonoCore\bin\Debug\netcoreapp3.0\BuonoCore.pdb
+C:\c-rew.com\Develop\Buono30\Buono.BuonoCore_30\Buono.BuonoCore\obj\Debug\netcoreapp3.0\Buono.BuonoCore.csprojAssemblyReference.cache
+C:\c-rew.com\Develop\Buono30\Buono.BuonoCore_30\Buono.BuonoCore\obj\Debug\netcoreapp3.0\Buono.BuonoCore.AssemblyInfoInputs.cache
+C:\c-rew.com\Develop\Buono30\Buono.BuonoCore_30\Buono.BuonoCore\obj\Debug\netcoreapp3.0\Buono.BuonoCore.AssemblyInfo.cs
+C:\c-rew.com\Develop\Buono30\Buono.BuonoCore_30\Buono.BuonoCore\obj\Debug\netcoreapp3.0\BuonoCore.dll
+C:\c-rew.com\Develop\Buono30\Buono.BuonoCore_30\Buono.BuonoCore\obj\Debug\netcoreapp3.0\BuonoCore.pdb
+C:\c-rew.com\Develop\Buono_30\Buono.BuonoCore_30\Buono.BuonoCore\bin\Debug\netcoreapp3.0\BuonoCore.deps.json
+C:\c-rew.com\Develop\Buono_30\Buono.BuonoCore_30\Buono.BuonoCore\bin\Debug\netcoreapp3.0\BuonoCore.dll
+C:\c-rew.com\Develop\Buono_30\Buono.BuonoCore_30\Buono.BuonoCore\bin\Debug\netcoreapp3.0\BuonoCore.pdb
+C:\c-rew.com\Develop\Buono_30\Buono.BuonoCore_30\Buono.BuonoCore\obj\Debug\netcoreapp3.0\Buono.BuonoCore.csprojAssemblyReference.cache
+C:\c-rew.com\Develop\Buono_30\Buono.BuonoCore_30\Buono.BuonoCore\obj\Debug\netcoreapp3.0\Buono.BuonoCore.AssemblyInfoInputs.cache
+C:\c-rew.com\Develop\Buono_30\Buono.BuonoCore_30\Buono.BuonoCore\obj\Debug\netcoreapp3.0\Buono.BuonoCore.AssemblyInfo.cs
+C:\c-rew.com\Develop\Buono_30\Buono.BuonoCore_30\Buono.BuonoCore\obj\Debug\netcoreapp3.0\BuonoCore.dll
+C:\c-rew.com\Develop\Buono_30\Buono.BuonoCore_30\Buono.BuonoCore\obj\Debug\netcoreapp3.0\BuonoCore.pdb

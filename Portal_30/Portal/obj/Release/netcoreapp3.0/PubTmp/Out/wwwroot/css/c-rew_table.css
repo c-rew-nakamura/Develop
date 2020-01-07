@@ -1,0 +1,41 @@
+﻿@charset "UTF-8";
+
+/*=======================================================
+.table0 標準テーブル
+=======================================================*/
+.table0 {
+    width: auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 20px;
+}
+
+.table0 caption {
+    color: #FFF;
+    background-color: #727272;
+    vertical-align:middle;
+    height: 30px;
+    padding: 10px 10px;
+    font-size: 14px;
+    text-align: center;
+    border-right: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;
+}
+
+.table0 tr:nth-child(even) {
+    background-color: #e3e3e3;
+    border-bottom: 1px solid #efefef;
+}
+
+.table0 tr:nth-child(odd) {
+    background-color: #ffffff;
+    border-bottom: 1px solid #efefef;
+}
+
+.table0 th {
+    color: #FFF;
+    background-color: #727272;
+    white-space: nowrap;
+    font-weight: normal;
+}
+

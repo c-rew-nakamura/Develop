@@ -1,0 +1,12 @@
+C:\Nakamura\Deverop\Buono\Buono.BuonoLicence\Buono.BuonoLicence\obj\Debug\netcoreapp2.1\Buono.BuonoLicence.csprojAssemblyReference.cache
+C:\Nakamura\Deverop\Buono\Buono.BuonoLicence\Buono.BuonoLicence\obj\Debug\netcoreapp2.1\Buono.BuonoLicence.csproj.CoreCompileInputs.cache
+C:\Nakamura\Deverop\Buono\Buono.BuonoLicence\Buono.BuonoLicence\obj\Debug\netcoreapp2.1\Buono.BuonoLicence.AssemblyInfoInputs.cache
+C:\Nakamura\Deverop\Buono\Buono.BuonoLicence\Buono.BuonoLicence\obj\Debug\netcoreapp2.1\Buono.BuonoLicence.AssemblyInfo.cs
+C:\Nakamura\Deverop\Buono\Buono.BuonoLicence\Buono.BuonoLicence\bin\Debug\netcoreapp2.1\Buono.BuonoLicence.deps.json
+C:\Nakamura\Deverop\Buono\Buono.BuonoLicence\Buono.BuonoLicence\bin\Debug\netcoreapp2.1\Buono.BuonoLicence.dll
+C:\Nakamura\Deverop\Buono\Buono.BuonoLicence\Buono.BuonoLicence\bin\Debug\netcoreapp2.1\Buono.BuonoLicence.pdb
+C:\Nakamura\Deverop\Buono\Buono.BuonoLicence\Buono.BuonoLicence\bin\Debug\netcoreapp2.1\BuonoCore.dll
+C:\Nakamura\Deverop\Buono\Buono.BuonoLicence\Buono.BuonoLicence\bin\Debug\netcoreapp2.1\BuonoCore.pdb
+C:\Nakamura\Deverop\Buono\Buono.BuonoLicence\Buono.BuonoLicence\obj\Debug\netcoreapp2.1\Buono.BuonoLicence.csproj.CopyComplete
+C:\Nakamura\Deverop\Buono\Buono.BuonoLicence\Buono.BuonoLicence\obj\Debug\netcoreapp2.1\Buono.BuonoLicence.dll
+C:\Nakamura\Deverop\Buono\Buono.BuonoLicence\Buono.BuonoLicence\obj\Debug\netcoreapp2.1\Buono.BuonoLicence.pdb
