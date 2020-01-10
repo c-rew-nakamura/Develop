@@ -77,6 +77,7 @@ namespace Portal.Classes
 
             // postgreSQLの非ssl接続のテスト
             myTBLVersion__.Rows.Add(new object[] { mySystemID_, mySystemName_, "0.0.0.7", "2020/01/03", "2099/12/31" });
+<<<<<<< HEAD
 
             // postgreSQLをssl接続に戻す
             myTBLVersion__.Rows.Add(new object[] { mySystemID_, mySystemName_, "0.0.0.8", "2020/01/03", "2099/12/31" });
@@ -85,6 +86,10 @@ namespace Portal.Classes
             myTBLVersion__.Rows.Add(new object[] { mySystemID_, mySystemName_, "0.0.0.9", "2020/01/03", "2099/12/31" });
             // RestClientに対応（テスト用）
             myTBLVersion__.Rows.Add(new object[] { mySystemID_, mySystemName_, "0.0.0.10", "2020/01/03", "2099/12/31" });
+=======
+            // postgreSQLをssl接続に戻す
+            myTBLVersion__.Rows.Add(new object[] { mySystemID_, mySystemName_, "0.0.0.8", "2020/01/03", "2099/12/31" });
+>>>>>>> origin/master
             // ▲▲ Buono
 
 

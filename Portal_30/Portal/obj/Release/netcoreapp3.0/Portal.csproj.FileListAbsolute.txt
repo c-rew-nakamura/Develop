@@ -125,4 +125,7 @@ C:\c-rew.com\Develop\Portal_30\Portal\bin\Release\netcoreapp3.0\Microsoft.Extens
 C:\c-rew.com\Develop\Portal_30\Portal\bin\Release\netcoreapp3.0\Microsoft.Extensions.FileSystemGlobbing.dll
 C:\c-rew.com\Develop\Portal_30\Portal\bin\Release\netcoreapp3.0\System.Text.Encodings.Web.dll
 C:\c-rew.com\Develop\Portal_30\Portal\bin\Release\netcoreapp3.0\System.Text.Json.dll
+<<<<<<< HEAD
 C:\c-rew.com\Develop\Portal_30\Portal\bin\Release\netcoreapp3.0\Newtonsoft.Json.dll
+=======
+>>>>>>> origin/master

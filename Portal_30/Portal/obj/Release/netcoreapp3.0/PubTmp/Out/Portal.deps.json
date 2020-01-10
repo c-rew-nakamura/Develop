@@ -27,7 +27,10 @@
           "Buono.BuonoDB": "1.0.0",
           "BuonoCore": "1.0.0",
           "Microsoft.AspNetCore.Session": "2.2.0",
+<<<<<<< HEAD
           "Newtonsoft.Json": "12.0.3",
+=======
+>>>>>>> origin/master
           "Microsoft.AspNetCore.Antiforgery": "3.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.0.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.0.0.0",
@@ -519,6 +522,7 @@
           "ref/netstandard2.0/Microsoft.Win32.Registry.dll": {}
         }
       },
+<<<<<<< HEAD
       "Newtonsoft.Json/12.0.3": {
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {
@@ -530,6 +534,8 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
+=======
+>>>>>>> origin/master
       "Npgsql/4.1.2": {
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "4.7.0"
@@ -2585,6 +2591,7 @@
       "path": "microsoft.win32.registry/4.7.0",
       "hashPath": "microsoft.win32.registry.4.7.0.nupkg.sha512"
     },
+<<<<<<< HEAD
     "Newtonsoft.Json/12.0.3": {
       "type": "package",
       "serviceable": true,
@@ -2592,6 +2599,8 @@
       "path": "newtonsoft.json/12.0.3",
       "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
     },
+=======
+>>>>>>> origin/master
     "Npgsql/4.1.2": {
       "type": "package",
       "serviceable": true,
