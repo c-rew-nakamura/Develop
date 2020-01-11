@@ -88,6 +88,8 @@ namespace Portal.Classes
 
             // tbl_newsのフォーマット変更に対応
             myTBLVersion__.Rows.Add(new object[] { mySystemID_, mySystemName_, "0.0.0.11", "2020/01/11", "2099/12/31" });
+            // dummy github ssh接続確認用
+            myTBLVersion__.Rows.Add(new object[] { mySystemID_, mySystemName_, "0.0.0.12", "2020/01/11", "2099/12/31" });
             // ▲▲ Buono
 
 
