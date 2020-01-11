@@ -10,22 +10,14 @@
         "projectUniqueName": "C:\\c-rew.com\\Develop\\Buono_30\\Buono.BuonoCore_30\\Buono.BuonoCore\\Buono.BuonoCore.csproj",
         "projectName": "BuonoCore",
         "projectPath": "C:\\c-rew.com\\Develop\\Buono_30\\Buono.BuonoCore_30\\Buono.BuonoCore\\Buono.BuonoCore.csproj",
-<<<<<<< HEAD
-        "packagesPath": "C:\\Users\\rand1\\.nuget\\packages\\",
-=======
-        "packagesPath": "C:\\Users\\nakap_000\\.nuget\\packages\\",
->>>>>>> origin/master
+        "packagesPath": "C:\\Users\\kunit\\.nuget\\packages\\",
         "outputPath": "C:\\c-rew.com\\Develop\\Buono_30\\Buono.BuonoCore_30\\Buono.BuonoCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-<<<<<<< HEAD
-          "C:\\Users\\rand1\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-          "C:\\Users\\nakap_000\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> origin/master
+          "C:\\Users\\kunit\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -68,23 +60,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-<<<<<<< HEAD
-=======
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.0.1, 3.0.1]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.0.0, 3.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[3.0.0, 3.0.0]"
-            }
-          ],
->>>>>>> origin/master
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -100,22 +75,14 @@
         "projectUniqueName": "C:\\c-rew.com\\Develop\\Buono_30\\Buono.BuonoDB_30\\Buono.BuonoDB\\Buono.BuonoDB.csproj",
         "projectName": "Buono.BuonoDB",
         "projectPath": "C:\\c-rew.com\\Develop\\Buono_30\\Buono.BuonoDB_30\\Buono.BuonoDB\\Buono.BuonoDB.csproj",
-<<<<<<< HEAD
-        "packagesPath": "C:\\Users\\rand1\\.nuget\\packages\\",
-=======
-        "packagesPath": "C:\\Users\\nakap_000\\.nuget\\packages\\",
->>>>>>> origin/master
+        "packagesPath": "C:\\Users\\kunit\\.nuget\\packages\\",
         "outputPath": "C:\\c-rew.com\\Develop\\Buono_30\\Buono.BuonoDB_30\\Buono.BuonoDB\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-<<<<<<< HEAD
-          "C:\\Users\\rand1\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-          "C:\\Users\\nakap_000\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> origin/master
+          "C:\\Users\\kunit\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -174,23 +141,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-<<<<<<< HEAD
-=======
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.0.1, 3.0.1]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.0.0, 3.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[3.0.0, 3.0.0]"
-            }
-          ],
->>>>>>> origin/master
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -206,22 +156,14 @@
         "projectUniqueName": "C:\\c-rew.com\\Develop\\Portal_30\\Portal\\Portal.csproj",
         "projectName": "Portal",
         "projectPath": "C:\\c-rew.com\\Develop\\Portal_30\\Portal\\Portal.csproj",
-<<<<<<< HEAD
-        "packagesPath": "C:\\Users\\rand1\\.nuget\\packages\\",
-=======
-        "packagesPath": "C:\\Users\\nakap_000\\.nuget\\packages\\",
->>>>>>> origin/master
+        "packagesPath": "C:\\Users\\kunit\\.nuget\\packages\\",
         "outputPath": "C:\\c-rew.com\\Develop\\Portal_30\\Portal\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-<<<<<<< HEAD
-          "C:\\Users\\rand1\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-          "C:\\Users\\nakap_000\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> origin/master
+          "C:\\Users\\kunit\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -255,13 +197,10 @@
             "Microsoft.AspNetCore.Session": {
               "target": "Package",
               "version": "[2.2.0, )"
-<<<<<<< HEAD
             },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.3, )"
-=======
->>>>>>> origin/master
             }
           },
           "imports": [
@@ -274,27 +213,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-<<<<<<< HEAD
-=======
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.0.1, 3.0.1]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.0.1, 3.0.1]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.0.0, 3.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[3.0.0, 3.0.0]"
-            }
-          ],
->>>>>>> origin/master
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
